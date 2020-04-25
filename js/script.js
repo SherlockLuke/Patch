@@ -7,7 +7,7 @@ var menuBtn = document.getElementById('menu');
 var moboNav = document.getElementById('mobo-nav');
 
 function myMenu() {
-    if (moboNav.style.display = 'none') {
+    if (moboNav.style.display === 'none') {
         moboNav.style.display = 'block'; 
     } else {
         moboNav.style.display = 'none';
