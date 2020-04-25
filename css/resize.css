@@ -78,12 +78,16 @@
         padding: .5em;
     }
 
+    #games {
+        padding: 0;
+    }
+
     #games #images {
         flex-wrap: wrap;
     }
 
     #games #images img {
-        width: 100px;
+        /* width: 200px; */
     }
 
     #contact div {
