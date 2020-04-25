@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Patch-It Gamers'</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/resize.css">
@@ -11,7 +12,7 @@
 </head>
 <body>
 
-    <header>
+    <header class="home">
         <div>
             <a href="#"><h1>Patch-It <span>Gamers'</span></h1></a>
         </div>
@@ -22,7 +23,7 @@
             <a href="tournament.html">Tournaments</a>
             <a href="contact.html">Contact</a>
         </nav>
-        <i class="fa fa-joomla" id="menu" onclick="myMenu()"></i>
+        <i class="fa fa-navicon" id="menu" onclick="myMenu()"></i>
     </header>
 
     <ul id="mobo-nav">
@@ -33,9 +34,67 @@
         <li><a href="contact.html">Contact</a></li>
     </ul>
 
-    <section id="slideshow">
-        <img src="img/img11.jpg" alt="GAming ia not a crime">
-    </section>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="img/img1.jpg" style="width:100%">
+        </div>
+      
+        <!-- <div class="mySlides fade">
+          <img src="img/img.jpeg" style="width:100%">
+        </div> -->
+      
+        <div class="mySlides fade">
+          <img src="img/img3.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="img/img4.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/img5.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/img6.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/img7.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/img8.jpg" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/img9.jpg" style="width:100%">
+          </div>
+    
+      </div>
+
+      <form action="" class="homeform">
+        <div class="home-container">
+          <h2>Subscribe for the latest Game Updates</h2>
+          <p>Lorem ipsum text about why you should subscribe to our newsletter blabla.
+            Lorem ipsum text about why you should subscribe to our newsletter blabla. 
+            Lorem ipsum text about why you should subscribe to our newsletter blabla</p>
+        </div>
+      
+        <div class="home-container" style="background-color:white">
+          <input type="text" placeholder="Name" name="name" required>
+          <input type="text" placeholder="Email address" name="mail" required>
+          <label>
+            <input type="checkbox" checked="checked" name="subscribe"> Games Daily
+          </label>
+        </div>
+      
+        <div class="home-container">
+          <input type="submit" value="Subscribe" class="homeform-btn">
+        </div>
+      </form>
+      
         <footer><br>
             <div>
                 <i class="fa fa-facebook"></i>

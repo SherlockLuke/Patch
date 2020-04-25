@@ -9,6 +9,10 @@
         /* color: #5C9F24; */
     }
 
+    .home {
+        position: relative;
+        opacity: 1;
+    }
     header h1 {
         color: #5C9F24;
         font-size: 1em;
