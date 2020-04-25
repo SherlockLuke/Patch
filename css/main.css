@@ -1,0 +1,226 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    /* font-family: 'Lato', sans-serif; */
+    scroll-behavior: smooth;
+}
+
+i.fa {
+    color: #5C9F24;
+}
+
+header {
+    padding: 1.4em 6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    /* position: absolute; */
+    opacity: 1;
+    width: 100%;
+}
+
+header a {
+    color: #fff;
+}
+
+header .fa {
+    font-size: 1.5em;
+    display: none;
+}
+
+header nav a {
+    padding: .5em;
+    font-size: 1.2em;
+}
+
+.selected {
+    /* text-decoration: underline; */
+    color: turquoise;
+}
+
+#mobo-nav {
+    display: none;
+}
+
+#slideshow {
+    width: 100%;
+}
+
+#slideshow img {
+    width: 100%;
+}
+
+#about {
+    text-align: center;
+    padding: 6em 2em;
+}
+
+h2 {
+    font-size: 2em;
+    padding: 1em 0;
+}
+h3 {
+    font-size: 1.5em;
+    padding: 0 0 1.5em 0;
+}
+
+#about #managers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5em;
+}
+
+#about #managers img {
+    max-width: 300px;
+    height: 200px;
+    /* border-radius: 100%; */
+}
+
+#managers .fa {
+    font-size: 1.2em;
+    padding: .4em;
+}
+
+.gallerydiv {
+    text-align: center;
+}
+
+#gallery {
+    background-color: #5C9F24;
+    color: #fff;
+    font-size: 1.5em;
+    padding: .5em 1em;
+    cursor: pointer;
+}
+
+#gallery:hover {
+    opacity: .7;
+}
+#games {
+    /* background-color: rgb(243, 243, 243); */
+    width: 90%;
+    /* display: none; */
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+#games #images {
+    display: flex;
+    /* flex-wrap: wrap; */
+    width: 90%;
+    margin: auto;
+}
+
+#games img {
+    max-width: 300px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#games img:hover {
+    opacity: .5;
+}
+
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+form input{
+    margin: auto;
+    width: 90%;
+    height: 4em;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    padding: 1em;
+    font-size: .9em;
+}
+
+form textarea {
+    margin: auto;
+    width: 90%;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    padding: 1em;
+    font-size: .9em;
+}
+
+form textarea:focus, form input:focus {
+    outline: 0;
+    border-color: #777;
+}
+
+form span {
+    font-size: 1.4em;
+}
+
+form p {
+    font-size: 1.2em;
+    padding: 1em 0;
+}
+
+form .btn {
+    background-color: #5C9F24;
+    color: #fff;
+    font-size: 1.1em;
+    padding: .5em 1em;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+form .btn:hover {
+    opacity: .7;
+}
+
+.fa-angle-up {
+    font-size: 1.5em;
+    padding: 1em;
+    bottom: 50px;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    border: 1px solid #5C9F24;
+    cursor: pointer;
+}
+
+
+.tournament {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.tournament-form {
+
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+footer .fa {
+    font-size: 1.5em;
+    padding: 1em .7em;
+}
+
+
