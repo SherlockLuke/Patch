@@ -15,7 +15,7 @@
     }
     header h1 {
         color: #5C9F24;
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     header nav {
@@ -29,6 +29,10 @@
     #mobo-nav {
         text-align: center;
         background-color: #000;
+        border: 1px solid #fff;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
     }
 
     #mobo-nav li {
@@ -37,8 +41,9 @@
     }
 
     #mobo-nav li a {
-        color: #fff;
+        color: #5C9F24;
         font-size: 1em;
+        padding: 10px;
     }
 
 
@@ -136,4 +141,20 @@
         padding: 1em .7em;
     }
 }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
 

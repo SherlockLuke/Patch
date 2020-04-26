@@ -51,7 +51,7 @@ header nav a {
 
 .selected {
     /* text-decoration: underline; */
-    color: turquoise;
+    color: #5C9F24;
 }
 
 #mobo-nav {
@@ -115,8 +115,7 @@ header nav a {
   
   
   .homeform-btn {
-    background-color: #4CAF50;
-    
+    background-color: #5C9F24;
     margin: 10px 0;
     color: white;
     border: none;
@@ -127,6 +126,9 @@ header nav a {
   .homeform input[type=submit]:hover {
     opacity: 0.8;
   }
+
+
+
 
 
   /* THE ABOUT PAGE ------------------------------------------------*/
@@ -162,45 +164,58 @@ h3 {
     padding: .4em;
 }
 
-.gallerydiv {
-    text-align: center;
-}
 
-#gallery {
-    background-color: #5C9F24;
-    color: #fff;
-    font-size: 1.5em;
-    padding: .5em 1em;
-    cursor: pointer;
-}
 
-#gallery:hover {
-    opacity: .7;
-}
-#games {
-    /* background-color: rgb(243, 243, 243); */
-    width: 90%;
-    /* display: none; */
-    margin: auto;
-    text-align: center;
-    padding: 20px;
-}
-#games #images {
+/*-------------------------- GAME PAGE ----------------------------------------*/
+
+
+
+
+.row {
     display: flex;
-    /* flex-wrap: wrap; */
-    width: 90%;
-    margin: auto;
-}
-
-#games img {
-    max-width: 300px;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
     cursor: pointer;
-    padding: 5px;
-}
+  }
 
-#games img:hover {
-    opacity: .5;
-}
+  .coupon {
+    width: 80%;
+    border-radius: 15px; 
+    margin: 30px auto; 
+    max-width: 600px;
+  }
+  
+  .coupon-container {
+    padding: 2px 16px;
+    background-color: #fff;
+  }
+  
+  .promo {
+    background: #ccc;
+    padding: 3px;
+  }
+  
+  .expire {
+    color: red;
+  }
+
+
+
+
+/*-------------------------- CONTACT PAGE ----------------------------------------*/
 
 #contact {
     text-align: center;
